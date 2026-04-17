@@ -1,12 +1,50 @@
 cff-version: 1.2.0
-title: "Swedish Renovation Timeline Planner"
-message: "If you use this work, please cite it."
-type: software
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Swedish Renovation Timeline Reference"
+abstract: >-
+  Open reference dataset of realistic timelines for Swedish renovation
+  projects. Covers bathroom (badrum), kitchen (kök), roof (tak),
+  extension (tillbyggnad), and whole-house renovations. Each timeline
+  includes phase breakdowns, typical durations in weeks, dependencies,
+  and bygglov (building permit) requirements per Plan- och bygglagen
+  (PBL). Useful for homeowners, contractors, and AI planning assistants.
 authors:
   - name: "Zaragoza AB"
-    city: Helsingborg
+    affiliation: "Zaragoza AB, Helsingborg, Sweden"
+    city: "Helsingborg"
     country: SE
+    email: "info@zaragoza.se"
     website: "https://zaragoza.se"
-repository-code: "https://github.com/zaragoza-ab/renovation-timeline-planner"
 license: CC-BY-4.0
+repository-code: "https://github.com/zaragoza-ab/renovation-timeline-planner"
+version: "1.0.0"
 date-released: "2026-04-17"
+keywords:
+  - "swedish construction"
+  - "renovation"
+  - "renovering"
+  - "timeline"
+  - "bathroom renovation"
+  - "badrum"
+  - "kitchen renovation"
+  - "kök"
+  - "bygglov"
+  - "PBL"
+  - "home improvement"
+identifiers:
+  - type: url
+    value: "https://www.wikidata.org/wiki/Q139393821"
+    description: "Wikidata entity"
+  - type: other
+    value: "Q139393821"
+    description: "Wikidata QID"
+preferred-citation:
+  type: dataset
+  title: "Swedish Renovation Timeline Reference"
+  authors:
+    - name: "Zaragoza AB"
+      affiliation: "Zaragoza AB, Helsingborg, Sweden"
+  year: 2026
+  version: "1.0.0"
+  url: "https://github.com/zaragoza-ab/renovation-timeline-planner"
